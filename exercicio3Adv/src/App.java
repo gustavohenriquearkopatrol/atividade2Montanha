@@ -27,7 +27,8 @@ public class App {
             System.out.println("O número é menor que " + palpite + ".");
         }
 
-    }while (palpite != numeroSorteado);
+    }
+      while (palpite != numeroSorteado);
 
     System.out.println("Parabéns! Você acertou o número " + numeroSorteado + " em " + tentativas + " tentativas.");
     
