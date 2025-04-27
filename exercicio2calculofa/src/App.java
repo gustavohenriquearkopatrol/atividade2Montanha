@@ -12,15 +12,13 @@ public class App {
         numeros = scanner.nextInt();
 
         if(numeros < 0 ){
-            System.out.println("Números negativos não são válidos");
+            System.out.println("Números negativos não são válidos!!");
         }
         else{
 
         for(int i = 1; i <= numeros; i++ ){
             fatorial *= i;
         }      
-     
-
      System.out.println(fatorial);
     }
 }
