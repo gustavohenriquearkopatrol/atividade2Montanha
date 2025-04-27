@@ -14,9 +14,7 @@ public class App {
             nota = scanner.nextDouble();
             scanner.nextLine();
 
-            
-               
-             if(nota < 0 || nota > 10) {
+            if(nota < 0 || nota > 10) {
                 System.out.println("Nota inválida! Digite uma nota entre 0 e 10.");
                 break;
             }
@@ -31,7 +29,5 @@ public class App {
         System.out.println("A soma das notas é: " + somaDasNotas);
 
         scanner.close();
-
-    
-}
+    }
 }
